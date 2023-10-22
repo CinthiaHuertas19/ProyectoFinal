@@ -151,14 +151,14 @@ p {
 
 /** Bloque Nosotros */
 .sobre-nosotros {
-    background-image: linear-gradient( to bottom, transparent 50%, #037bc0 50%, #037bc0 100% ), url(https://www.westchesterhispano.net/wp-content/uploads/2017/04/lavar-carros-llanta.jpg);
+    background-image: linear-gradient( to bottom, transparent 50%, #037bc0 50%, #037bc0 100% ), url(/lavar-carros-llanta.jpg);
     background-position: center, top left;
     background-repeat: no-repeat;
 }
 
 @media (min-width: 768px) { 
     .sobre-nosotros {
-        background-image: linear-gradient( to right, transparent 50%, #037bc0 50%, #037bc0 100% ), url(https://www.westchesterhispano.net/wp-content/uploads/2017/04/lavar-carros-llanta.jpg);
+        background-image: linear-gradient( to right, transparent 50%, #037bc0 50%, #037bc0 100% ), url(/lavar-carros-llanta.jpg);
         background-position: left center ;
         padding: 10rem 0;
 
