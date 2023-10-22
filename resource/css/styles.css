@@ -1,0 +1,221 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    background-color: #cae4ee;
+    margin: 0;
+    padding: 0;
+}
+
+/** Header y Navegacion **/
+
+.gradientLineal {
+    background: linear-gradient(to right,#037bc0,#037bc0);
+}
+
+
+header {
+    color: white;
+
+}
+
+
+.nombre-sitio {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    gap: 5rem;
+    margin-top: 1rem;
+}
+
+nav ul li {
+    display: inline;
+    text-align: right;
+    margin-right: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+/*@media (max-width: 768px) { 
+    .contenedor {
+        justify-content: space-between;
+        flex-direction: row;
+    }
+} */
+
+
+nav a {
+    text-decoration: none;
+    color: rgb(8, 8, 8);
+    font-weight: bold;
+}
+
+
+.hero {
+    background-image: url(/imagenes/principal.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 40rem;
+}
+
+@media (max-width: 768px) { 
+    .hero {
+        height: 15rem;
+    }
+}
+
+
+section {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.text-center {
+    text-align: center;
+    color: rgb(10, 10, 10);
+    margin-top: 20px;
+}
+
+.card {
+    width: 300px;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+#img {
+
+    height: 200px;
+}
+/* globales */
+
+h1 {
+    font-size: 2.8rem;
+    font-weight: bold;
+}
+
+
+@media (min-width: 768px) { 
+    h1 {
+        font-size: 4rem;
+    }
+}
+
+
+h2 {
+    font-size: 1.8rem;
+}
+
+@media (min-width: 768px) { 
+    h2 {
+        font-size: 1 rem;
+    }
+}
+
+
+h3 {
+    font-size: 1rem;
+    color: black;
+    font-weight: bold;
+    margin: 0;
+}
+
+p {
+    font-size: 1rem;
+    color: #0a0a0a;
+}
+
+
+/** Bloque Nosotros */
+.sobre-nosotros {
+    background-image: linear-gradient( to bottom, transparent 50%, #037bc0 50%, #037bc0 100% ), url(/imagenes/imagen7.jpg);
+    background-position: center, top left;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+@media (min-width: 768px) { 
+    .sobre-nosotros {
+        background-image: linear-gradient( to right, transparent 50%, #037bc0 50%, #037bc0 100% ), url(/imagenes/imagen7.jpg);
+        background-position: left center ;
+        padding: 10rem 0;
+        background-size: cover;
+
+    }
+}
+.sobre-nosotros-grid {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+}
+@media (min-width: 768px) { 
+    .sobre-nosotros-grid {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: unset;
+        column-gap: 10rem;
+    }
+}
+.texto-nosotros {
+    grid-row: 2 / 3;
+    color: #FFF;
+    padding: 5rem;
+}
+@media (min-width: 768px) { 
+    .texto-nosotros {
+        grid-column: 2 / 3;
+    }
+}
+
+
+/* Footer*/
+
+#site-footer {
+    background-color: white;
+}
+
+@media (max-width: 768px) { 
+    .footer-menu a {
+        font-size: 0.8rem;
+        font-weight: bold;
+    }
+}
+
+footer {
+   padding: 15px;
+   height: 6rem;
+}
+
+
+footer a {
+   color: rgb(41, 39, 39);
+   text-decoration: none;
+   font-size: 1.5rem;
+}
+
+.nav {
+    font-size: 15x; 
+    justify-content: space-between;
+    margin-top: 10px;
+}
